@@ -64,7 +64,7 @@ import {
             height="auto"
             alt="post"
             style={{ borderRadius: "0.75rem", marginTop: "0.75rem" }}
-            src={`https://sociobuddy-back.onrender.com/${picturePath}`}
+            src={`${picturePath}`}
           />
         )}
         <FlexBetween mt="0.25rem">
@@ -110,4 +110,7 @@ import {
   };
   
   export default PostWidget;
+
+
+  //https://sociobuddy-back.onrender.com/
   
